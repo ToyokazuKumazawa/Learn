@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("run")
 	defer fmt.Println(1)
 	defer fmt.Println(2)
-	defer fmt.Println(3)
+	defer fmt.Println(3) // deferは3→2→1の順で実行される
 	fmt.Println("success")
 
 	file, _ := os.Open("./lesson.go")

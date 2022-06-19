@@ -17,5 +17,6 @@ func main() {
 	s := []int{1, 2, 3}
 	fmt.Println(s)
 
+	// ...でスライスの中身を展開する
 	foo(s...)
 }

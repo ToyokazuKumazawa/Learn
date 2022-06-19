@@ -18,7 +18,7 @@ func main() {
 	LoggingSettings("test.log")
 	_, err := os.Open("fdafdsafa")
 	if err != nil {
-		log.Fatalln("Exit", err)
+		log.Fatalln("Exit", err) // log.Fatallmを使うとコードが終了する（次の処理にいかない）
 	}
 	log.Println("logging!")
 	log.Printf("%T %v", "test", "test")

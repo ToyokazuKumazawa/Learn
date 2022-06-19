@@ -17,6 +17,7 @@ func main() {
 	}
 	fmt.Println(result)
 
+	// if文以降に変数(result2)を使わないのであれば、このように;でつなげて1行にすることができる
 	if result2 := by2(10); result2 == "ok" {
 		fmt.Println("great 2")
 	}

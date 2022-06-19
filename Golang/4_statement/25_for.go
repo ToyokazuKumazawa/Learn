@@ -16,6 +16,7 @@ func main() {
 		fmt.Println(i)
 	}
 
+	// while文
 	sum := 1
 	for sum < 10 {
 		sum += sum
@@ -23,6 +24,7 @@ func main() {
 	}
 	fmt.Println(sum)
 
+	//無限ループ
 	for {
 		fmt.Println("hello")
 	}
