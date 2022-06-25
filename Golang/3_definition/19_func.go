@@ -27,6 +27,7 @@ func main() {
 	}
 	f(1)
 
+	// 関数定義をしてそのまま使うことができる
 	func(x int) {
 		fmt.Println("inner func", x)
 	}(1)

@@ -15,7 +15,8 @@ func main() {
 	fmt.Printf("%T %v %d\n", yy, yy, yy)
 
 	var s string = "14"
-	i, _ := strconv.Atoi(s)
+	// int(s)のようにintへのキャストはできない
+	i, _ := strconv.Atoi(s) // アスキーtoInt
 	fmt.Printf("%T %v\n", i, i)
 
 	h := "Hello World"
